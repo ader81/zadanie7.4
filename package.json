@@ -1,15 +1,18 @@
+
 {
-  "name": "git_nauka",
+ "name": "git_nauka",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "validate":"nu-html-checker index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.23.5"
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.23.5",
+    "nu-html-checker": "^0.1.0"
   }
 }
