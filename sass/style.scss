@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box;
+}
+.test {
+	display: flex;
+	flex-wrap: wrap;
+}
+.container {
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+.content {
+    min-width: 270px;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(116, 15, 15);
+    margin-bottom: 30px;
+}
+p {
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: #ededed;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10px;
+}
